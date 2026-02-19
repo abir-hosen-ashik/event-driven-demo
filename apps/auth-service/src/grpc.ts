@@ -31,10 +31,10 @@ server.addService(authPackage.AuthService.service, {
 });
 
 server.bindAsync(
-  "0.0.0.0:6001",
+  "0.0.0.0:7001",
   grpc.ServerCredentials.createInsecure(),
   () => {
-    console.log("gRPC running on 6001");
+    console.log("gRPC running on 7001");
     server.start();
   }
 );
