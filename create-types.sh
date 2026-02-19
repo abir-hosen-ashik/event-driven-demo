@@ -13,7 +13,7 @@ mkdir -p $PACKAGE_DIR/protos
 # 2️⃣ create package.json
 cat > $PACKAGE_DIR/package.json <<EOL
 {
-  "name": "@event-demo/types",
+  "name": "@repo/types",
   "version": "1.0.0",
   "description": "Shared gRPC protos and TypeScript types for microservices",
   "main": "dist/index.js",

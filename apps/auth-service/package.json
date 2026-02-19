@@ -9,8 +9,10 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
-    "dev-a": "concurrently \"tsc --watch\" \"nodemon -q dist/index.js\"",
-    "dev": "concurrently \"tsc --watch\" \"nodemon dist/index.js\" \"nodemon dist/grpc.js\""
+    "dev-main": "concurrently \"tsc --watch\" \"nodemon -q dist/index.js\"",
+    "dev-with-gcp": "concurrently \"tsc --watch\" \"nodemon dist/index.js\" \"nodemon dist/grpc.js\"",
+    "dev": "concurrently \"tsc --watch\" \"nodemon dist/index.js\" \"nodemon dist/grpc.js\" \"nodemon dist/tcp.js\""
+
   },
   "keywords": [
     "express",
