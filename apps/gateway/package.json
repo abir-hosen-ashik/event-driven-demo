@@ -19,6 +19,7 @@
   "author": "Joe Previte<jjprevite@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "cockatiel": "^3.2.1",
     "dotenv": "^16.0.2",
     "express": "^4.18.1"
   },
